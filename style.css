@@ -1,3 +1,9 @@
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
 .menu-acessibilidade{
     position: fixed;
     top:2rem;
@@ -12,4 +18,14 @@
     flex-direction: column;
 }.opcoes-acessibilidade button{
     margin-bottom: 5px;
+} 
+.alto-contraste{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
 }
